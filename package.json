@@ -1,0 +1,23 @@
+{
+  "name": "playwright_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "array.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "allure-commandline": "^2.38.1",
+    "allure-playwright": "^3.7.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.8.2",
+    "xlsx": "^0.18.5"
+  }
+}

@@ -1,0 +1,16 @@
+"use strict";
+console.log("Sample typescript");
+let msg = "hello";
+console.log(msg);
+let age = 25;
+console.log(age);
+let isActive = true;
+console.log(isActive);
+let random = "cv123";
+console.log(random);
+random = 9;
+console.log(random);
+let non = "binary";
+console.log(non);
+non = 9;
+console.log(non);
