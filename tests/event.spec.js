@@ -1,4 +1,4 @@
-import {test,expecte} from '@playwright/test'
+import {test,expect} from '@playwright/test'
 test('Mousehover in playwright' ,async({page})=>{
 
     page.goto("https://selenium.qabible.in")

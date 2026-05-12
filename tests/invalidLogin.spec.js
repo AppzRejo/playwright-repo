@@ -1,11 +1,12 @@
 import  {test,expect} from '@playwright/test'
+import testdata from '../utils/parametrizedtestdata.json' assert { type: 'json' }
 
 //Hooks
 test.beforeEach(async({page})=>{
 await page.goto("https://www.saucedemo.com")
 })
 
-const testdata= require('../utils/parametrizedtestdata.json')
+//const testdata= require('../utils/parametrizedtestdata.json')
 
 
 for (const data of testdata){

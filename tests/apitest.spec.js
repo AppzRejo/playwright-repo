@@ -26,7 +26,7 @@ test('Post Request' , async({request})=>{
 
 //PATCH
 
-test.only('Patch request - update request', async({request})=>{
+test('Patch request - update request', async({request})=>{
 const respons=await request.patch("https://jsonplaceholder.typicode.com/users/11",{
      data:{
         

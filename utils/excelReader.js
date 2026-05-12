@@ -1,13 +1,13 @@
-const XLSX=require('xlsx') //importing the library for the  xlsx library
-//ES6 modern technique
-//import *as XLSX from 'xlsx'
-function getData(){
+import XLSX from 'xlsx';
+//const XLSX=require('xlsx')
+ function getData(){
     const workbook=XLSX.readFile('testdata/applicationdata.xlsx') // excel file path paranje koduthal, need to open the file in the TestData folder.
-    const sheet=workbook.Sheets['logindata'] //sheet name specified as loginpage
+      const sheet=workbook.Sheets['logindata'] //sheet name specified as loginpage
     const data=XLSX.utils.sheet_to_json(sheet) //Need to covert excel to javascript format, first row header as it consider
     return data
 
 
 }
+export { getData }
 
-module.exports={getData} //This function will available in other filesconst XLSX=require('xlsx') //importing the library for the  xlsx library
+//module.exports={getData} //This function will available in other filesconst XLSX=require('xlsx') //importing the library for the  xlsx library
