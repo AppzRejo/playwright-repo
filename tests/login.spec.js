@@ -1,5 +1,5 @@
 import  {test,expect} from '@playwright/test'
-import { getdata } from '../utils/excelReader.js'
+import { getData } from '../utils/excelReader.js'
 
 //Hooks
 test.beforeEach(async({page})=>{
