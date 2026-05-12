@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test'
 import { LoginPageMain } from '../pages/loginPageMain'
-import testdata from '../utils/testDataCredentials.json'
+import testdata from '../utils/testDataCredentials.json' with { type: 'json' }
 
 test("Login using typescript" ,async({page})=>{
 

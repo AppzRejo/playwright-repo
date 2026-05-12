@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test'
 import { LoginPage } from '../pages/LoginPage' 
-import { getData} from '../utils/excelReader.js'
+import { getData } from '../utils/excelReader.js'
 
 const credential=getData()
 

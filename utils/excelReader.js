@@ -8,6 +8,6 @@ import XLSX from 'xlsx';
 
 
 }
-export { getData }
+export {getData}
 
 //module.exports={getData} //This function will available in other filesconst XLSX=require('xlsx') //importing the library for the  xlsx library
