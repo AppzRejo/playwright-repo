@@ -8,7 +8,8 @@ let context
 let page
 
 BeforeAll(async function () {
-    browser=await chromium.launch({headless:false ,slowMo:300})   
+    //browser=await chromium.launch({headless:false ,slowMo:300})  
+    browser=await chromium.launch({slowMo:300})
     
 })
 

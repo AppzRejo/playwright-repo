@@ -9,7 +9,8 @@ let browser
 let page
 
 Given ('user is on loginpage',async function () {//anonymous function-noname 
-    browser=await chromium.launch({headless:false})
+    //browser=await chromium.launch({headless:false})
+    browser=await chromium.launch()
  const context =await browser.newContext()
   page= await context.newPage()
  await page.goto("https://www.saucedemo.com/",{timeout:3000})
